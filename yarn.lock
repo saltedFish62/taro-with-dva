@@ -909,6 +909,13 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.9.2":
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
+  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.8.4":
   version "7.9.6"
   resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.9.6.tgz?cache=0&sync_timestamp=1588185905751&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.9.6.tgz#a9102eb5cadedf3f31d08a9ecf294af7827ea29f"
@@ -1072,6 +1079,24 @@
     node-sass "^4.12.0"
     scss-bundle "^2.5.1"
 
+"@tarojs/redux-h5@^2.2.3":
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/@tarojs/redux-h5/-/redux-h5-2.2.10.tgz#025a22a68d016d4ba181c32b430c598e6e0705bf"
+  integrity sha512-yRfVXBcrCT3Tx+btvklpVYGAkpyj08TeVAW6mQitIP7lSSRyZa5iV9yvnNqT/UQbuVe/1fXlUNjLGwCel6NWfA==
+  dependencies:
+    hoist-non-react-statics "^2.5.0"
+    invariant "^2.2.4"
+    loose-envify "^1.1.0"
+    prop-types "^15.6.1"
+
+"@tarojs/redux@^2.2.3":
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/@tarojs/redux/-/redux-2.2.10.tgz#63b1ee7cd123c17aa67d71d6d5ae8ce6ef6eacea"
+  integrity sha512-t2dkhUi5W7iVO5GBPIqxNQEfSHm5UBtdIssQFn69Hd4vhuEWLATUBCLa4Ki8fYz1s+peqLfNuObz2svVKOiRDg==
+  dependencies:
+    "@tarojs/taro" "^2.2.10"
+    "@tarojs/utils" "^2.2.10"
+
 "@tarojs/router@2.1.5":
   version "2.1.5"
   resolved "https://registry.npm.taobao.org/@tarojs/router/download/@tarojs/router-2.1.5.tgz#c6466f4f07d7962627bf8b293263e1130e27cb4f"
@@ -1192,6 +1217,13 @@
   dependencies:
     "@tarojs/utils" "2.1.5"
 
+"@tarojs/taro@^2.2.10":
+  version "2.2.17"
+  resolved "https://registry.yarnpkg.com/@tarojs/taro/-/taro-2.2.17.tgz#78a95dc4e91ab4e4580205464ae684f32b612fa4"
+  integrity sha512-Mw41xfoPFwFcePkGXAxkH7J+2yWEViLUeM5Y3MvEjmPi+MWLQK5eMf+YLXKEf2GJ8pxf7H9GYr0FLG7s8qowJw==
+  dependencies:
+    "@tarojs/utils" "2.2.17"
+
 "@tarojs/transformer-wx@2.1.5":
   version "2.1.5"
   resolved "https://registry.npm.taobao.org/@tarojs/transformer-wx/download/@tarojs/transformer-wx-2.1.5.tgz#9ab61c86bab2d43ad52f1d9d581ba8b5a6c0b108"
@@ -1227,6 +1259,16 @@
   version "2.1.5"
   resolved "https://registry.npm.taobao.org/@tarojs/utils/download/@tarojs/utils-2.1.5.tgz?cache=0&sync_timestamp=1588736449311&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40tarojs%2Futils%2Fdownload%2F%40tarojs%2Futils-2.1.5.tgz#055cd8f8b240eeb1cee398ffbbe726ba7a49fcd5"
   integrity sha1-BVzY+LJA7rHO45j/u+cmunpJ/NU=
+
+"@tarojs/utils@2.2.17":
+  version "2.2.17"
+  resolved "https://registry.yarnpkg.com/@tarojs/utils/-/utils-2.2.17.tgz#d6e4b808e3d7f984e8e5671a33e6f02ad2042651"
+  integrity sha512-QMCcvicXKwEiF6+K5lwdF98dISRMrc/0pA3hQOPnnBrHSUSV19pD3tYC5kMcUxc7FqsQO7bS7WgWVXs+QECW2Q==
+
+"@tarojs/utils@^2.2.10":
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/@tarojs/utils/-/utils-2.2.10.tgz#ddf82a77aeccfc315c2fb78b3d1c079860aed350"
+  integrity sha512-5Y96pcSqqOYS/C1OlqtjzmTpD44n2AxobyKHpvVapqKdhnHbxkUVm+biqbHhfNqwr056KPviPQ4WMDjU33X7PA==
 
 "@tarojs/webpack-runner@2.1.5":
   version "2.1.5"
@@ -4357,6 +4399,19 @@ duplexify@^3.4.2, duplexify@^3.6.0:
     readable-stream "^2.0.0"
     stream-shift "^1.0.0"
 
+dva-core@^2.0.2:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/dva-core/-/dva-core-2.0.4.tgz#086665d1d5f684e089c5bfac9ba388d91cc9050a"
+  integrity sha512-Zh39llFyItu9HKXKfCZVf9UFtDTcypdAjGBew1S+wK8BGVzFpm1GPTdd6uIMeg7O6STtCvt2Qv+RwUut1GFynA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    flatten "^1.0.2"
+    global "^4.3.2"
+    invariant "^2.2.1"
+    is-plain-object "^2.0.3"
+    redux-saga "^0.16.0"
+    warning "^3.0.0"
+
 ecc-jsbn@~0.1.1:
   version "0.1.2"
   resolved "https://registry.npm.taobao.org/ecc-jsbn/download/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
@@ -5186,6 +5241,11 @@ flatted@^2.0.0:
   resolved "https://registry.npm.taobao.org/flatted/download/flatted-2.0.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fflatted%2Fdownload%2Fflatted-2.0.2.tgz#4575b21e2bcee7434aa9be662f4b7b5f9c2b5138"
   integrity sha1-RXWyHivO50NKqb5mL0t7X5wrUTg=
 
+flatten@^1.0.2:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.3.tgz#c1283ac9f27b368abc1e36d1ff7b04501a30356b"
+  integrity sha512-dVsPA/UwQ8+2uoFe5GHtiBMu48dWLTdsuEd7CKGlZlD78r1TTWBvDuFaFGKCo/ZfEr95Uk56vZoX86OsHkUeIg==
+
 flush-write-stream@^1.0.0:
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/flush-write-stream/download/flush-write-stream-1.1.1.tgz#8dd7d873a1babc207d94ead0c2e0e44276ebf2e8"
@@ -5459,7 +5519,7 @@ glob@^7.0.0, glob@^7.0.3, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, gl
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-global@^4.3.0:
+global@^4.3.0, global@^4.3.2:
   version "4.4.0"
   resolved "https://registry.npm.taobao.org/global/download/global-4.4.0.tgz#3e7b105179006a323ed71aafca3e9c57a5cc6406"
   integrity sha1-PnsQUXkAajI+1xqvyj6cV6XMZAY=
@@ -5664,6 +5724,11 @@ hmac-drbg@^1.0.0:
     hash.js "^1.0.3"
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
+
+hoist-non-react-statics@^2.5.0:
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
+  integrity sha512-rqcy4pJo55FTTLWt+bU8ukscqHeE/e9KWvsOW2b/a3afxQZhwkQdT1rPPCJ0rYXdj4vNcasY8zHTH+jF/qStxw==
 
 home-or-tmp@^2.0.0:
   version "2.0.0"
@@ -6017,7 +6082,7 @@ intersection-observer@^0.7.0:
   resolved "https://registry.npm.taobao.org/intersection-observer/download/intersection-observer-0.7.0.tgz?cache=0&sync_timestamp=1587661629695&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fintersection-observer%2Fdownload%2Fintersection-observer-0.7.0.tgz#ee16bee978db53516ead2f0a8154b09b400bbdc9"
   integrity sha1-7ha+6XjbU1FurS8KgVSwm0ALvck=
 
-invariant@2.2.4, invariant@^2.2.0, invariant@^2.2.2, invariant@^2.2.4:
+invariant@2.2.4, invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.npm.taobao.org/invariant/download/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
@@ -6868,7 +6933,7 @@ longest-streak@^2.0.1:
   resolved "https://registry.npm.taobao.org/longest-streak/download/longest-streak-2.0.4.tgz#b8599957da5b5dab64dee3fe316fa774597d90e4"
   integrity sha1-uFmZV9pbXatk3uP+MW+ndFl9kOQ=
 
-loose-envify@^1.0.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npm.taobao.org/loose-envify/download/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
@@ -8887,6 +8952,18 @@ redent@^2.0.0:
     indent-string "^3.0.0"
     strip-indent "^2.0.0"
 
+redux-saga@^0.16.0:
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/redux-saga/-/redux-saga-0.16.2.tgz#993662e86bc945d8509ac2b8daba3a8c615cc971"
+  integrity sha512-iIjKnRThI5sKPEASpUvySemjzwqwI13e3qP7oLub+FycCRDysLSAOwt958niZW6LhxfmS6Qm1BzbU70w/Koc4w==
+
+redux@^4.0.5:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-4.1.0.tgz#eb049679f2f523c379f1aff345c8612f294c88d4"
+  integrity sha512-uI2dQN43zqLWCt6B/BMGRMY6db7TTY4qeHHfGeKb3EOhmOKjU3KdWvNLJyqaHRksv/ErdNH7cFZWg9jXtewy4g==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
   resolved "https://registry.npm.taobao.org/regenerate-unicode-properties/download/regenerate-unicode-properties-8.2.0.tgz#e5de7111d655e7ba60c057dbe9ff37c87e65cdec"
@@ -10480,9 +10557,9 @@ typescript@^3.2.2:
   integrity sha1-QJ64VE6gM1cRIFhp7EWKsQnuEGE=
 
 ua-parser-js@^0.7.19:
-  version "0.7.21"
-  resolved "https://registry.npm.taobao.org/ua-parser-js/download/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
-  integrity sha1-hTz5zpP2QvZxdCc8w0Vlrm8wh3c=
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 uglify-es@^3.3.4:
   version "3.3.9"
@@ -10880,6 +10957,13 @@ warning@4.0.2:
   version "4.0.2"
   resolved "https://registry.npm.taobao.org/warning/download/warning-4.0.2.tgz#aa6876480872116fa3e11d434b0d0d8d91e44607"
   integrity sha1-qmh2SAhyEW+j4R1DSw0NjZHkRgc=
+  dependencies:
+    loose-envify "^1.0.0"
+
+warning@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
+  integrity sha1-MuU3fLVy3kqwR1O9+IIcAe1gW3w=
   dependencies:
     loose-envify "^1.0.0"
 
